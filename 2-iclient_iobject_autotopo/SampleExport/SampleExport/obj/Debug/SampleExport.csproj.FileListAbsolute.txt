@@ -1,0 +1,12 @@
+D:\576f726b\202212001-PAMA_training\SampleExport\SampleExport\obj\Debug\SampleExport.csproj.AssemblyReference.cache
+D:\576f726b\202212001-PAMA_training\SampleExport\SampleExport\obj\Debug\SampleExport.csproj.SuggestedBindingRedirects.cache
+D:\576f726b\202212001-PAMA_training\SampleExport\SampleExport\obj\Debug\SampleExport.csproj.CoreCompileInputs.cache
+D:\576f726b\202212001-PAMA_training\SampleExport\SampleExport\bin\Debug\SampleExport.exe
+D:\576f726b\202212001-PAMA_training\SampleExport\SampleExport\bin\Debug\SampleExport.pdb
+D:\576f726b\202212001-PAMA_training\SampleExport\SampleExport\bin\Debug\SuperMap.Data.Conversion.dll
+D:\576f726b\202212001-PAMA_training\SampleExport\SampleExport\bin\Debug\SuperMap.Data.dll
+D:\576f726b\202212001-PAMA_training\SampleExport\SampleExport\bin\Debug\ja-JP\SuperMap.Data.resources.dll
+D:\576f726b\202212001-PAMA_training\SampleExport\SampleExport\bin\Debug\zh-CN\SuperMap.Data.resources.dll
+D:\576f726b\202212001-PAMA_training\SampleExport\SampleExport\obj\Debug\SampleExport.csproj.CopyComplete
+D:\576f726b\202212001-PAMA_training\SampleExport\SampleExport\obj\Debug\SampleExport.exe
+D:\576f726b\202212001-PAMA_training\SampleExport\SampleExport\obj\Debug\SampleExport.pdb

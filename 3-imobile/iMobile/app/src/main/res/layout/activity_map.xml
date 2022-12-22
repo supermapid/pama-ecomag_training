@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.supermap.MapActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left">
+
+            <com.supermap.mapping.MapView
+                android:id="@+id/Map_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></com.supermap.mapping.MapView>
+
+            <RelativeLayout
+                android:id="@+id/bar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/cornerbottom_bg"
+                android:elevation="8dp"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/lay_header"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/TV_drawboundary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dmsans_regular"
+                        android:text="Draw Boundary"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/createboundary"
+                android:backgroundTint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/ic_pencil" />
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/done"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_allplan"
+                android:backgroundTint="@color/green"
+                />
+
+            <ImageButton
+                android:id="@+id/location"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/ic_locmarker" />
+            <ImageButton
+                android:id="@+id/zoomIn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_above="@+id/zoomOut"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/ic_zoomin" />
+            <ImageButton
+                android:id="@+id/zoomOut"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_above="@+id/location"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/ic_zoomout" />
+            <ImageButton
+                android:id="@+id/edit"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_above="@id/undo"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/ic_trash" />
+            <ImageButton
+                android:id="@+id/save"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_above="@id/edit"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/ic_baseline_save_24" />
+            <ImageButton
+                android:id="@+id/undo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_above="@id/redo"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/ic_undo" />
+            <ImageButton
+                android:id="@+id/redo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_above="@id/cancel"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/ic_redo" />
+            <ImageButton
+                android:id="@+id/cancel"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_above="@id/zoomIn"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/ic_pencil" />
+
+            <!--        <ZoomControls-->
+            <!--            android:id="@+id/zoomControls1"-->
+            <!--            android:layout_margin="20dp"-->
+            <!--            android:layout_alignParentBottom="true"-->
+            <!--            android:layout_alignParentStart="true"-->
+            <!--            android:layout_centerHorizontal="true"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content">-->
+            <!--        </ZoomControls>-->
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
